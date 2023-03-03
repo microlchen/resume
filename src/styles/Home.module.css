@@ -8,6 +8,12 @@
   width: 90%;
 }
 
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
 .h1 {
   justify-content: flex-start;
   display: flex;
@@ -30,6 +36,7 @@
 }
 
 .type {
+  flex-grow: 0.5;
   display: flex;
   justify-content: flex-start;
   opacity: 0.6;
@@ -40,6 +47,8 @@
 }
 .type1 {
   opacity: 0.8;
+  display: flex;
+  justify-content: flex-start;
   font-size: large;
   font-weight: 600;
   line-height: 1.5;
@@ -50,6 +59,10 @@
 
 .indent {
   margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 0.5;
 }
 
 .divider {
@@ -110,6 +123,10 @@
     width: 100%;
   }
   
+  .flex {
+    flex-wrap: wrap;
+  }
+
   .h1 {
     font-size: x-large;
     flex-wrap: wrap;

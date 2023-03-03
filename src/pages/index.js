@@ -82,16 +82,17 @@ export default function Home() {
                   <li className={styles.type}>● R</li>
                 </ul>
               </section>
-              <section>
+              <section className={styles.flex}>
                 <p className={styles.type1}>Frameworks</p>
                 <ul className={styles.indent}>
 
                   <li className={styles.type}>● React </li>
                   <li className={styles.type}>● Material UI - MUI</li>
                   <li className={styles.type}>● Flask</li>
+                  
                 </ul>
               </section>
-              <section>
+              <section className={styles.flex}>
                 <p className={styles.type1}>Tools</p>
                 <ul className={styles.indent}>
 
@@ -100,7 +101,7 @@ export default function Home() {
                   <li className={styles.type}>● Vercel</li>
                 </ul>
               </section>
-              <section>
+              <section className={styles.flex}>
                 <p className={styles.type1}>Personal Interest Skills</p>
                 <ul className={styles.indent}>
 
