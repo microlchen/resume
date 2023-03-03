@@ -16,11 +16,7 @@ export default function Home() {
         <div className={styles.center}>
           <section  >
             <h1 className={styles.h1}>
-              MICROL CHEN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              MICROL CHEN 
             </h1>
             <p className={styles.type}>Contacts: microl.chen@emory.edu &nbsp; | &nbsp; 404&nbsp;-&nbsp;642&nbsp;-&nbsp;7703</p>
             <br />
