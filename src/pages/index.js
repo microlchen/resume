@@ -59,7 +59,7 @@ export default function Home() {
             </ul>
             <br />
             <h3 className={styles.subhead}> Kindred – A Conversational AI Companion Bot</h3>
-            <p className={styles.type}># Python #Emora STDM</p>
+            <p className={styles.type}>#Python #Emora STDM</p>
             <ul className={styles.indent}>
               <li className={styles.type}>● Collaborated with three other members to build a conversation ai capable of identifying students in need of mental health support, and giving social support by acting as a companion for those who are lonely. </li>
               <li className={styles.type}>● Worked extensively with Emora STDM, macros, and regular expressions.</li>
@@ -143,7 +143,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/microl-chen/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
