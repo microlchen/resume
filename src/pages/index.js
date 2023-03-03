@@ -22,7 +22,7 @@ export default function Home() {
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             </h1>
-            <p>Contacts: microl.chen@emory.edu &nbsp; | &nbsp; 404&nbsp;-&nbsp;642&nbsp;-&nbsp;7703</p>
+            <p className={styles.type}>Contacts: microl.chen@emory.edu &nbsp; | &nbsp; 404&nbsp;-&nbsp;642&nbsp;-&nbsp;7703</p>
             <br />
             <h2 className={styles.h2}>EDUCATION</h2>
             <hr className={styles.divider} />
