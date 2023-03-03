@@ -8,10 +8,10 @@
   width: 90%;
 }
 
-.flex {
+.flex{
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .h1 {
@@ -90,8 +90,6 @@
   
 }
 
-
-
 .card h2 {
   display: flex;
   justify-content: flex-start;
@@ -114,7 +112,6 @@
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  
   width: 100%;
 }
 
@@ -123,9 +120,9 @@
     flex-wrap: wrap;
   }
   
-  .flex {
-    flex-wrap: wrap;
-  }
+.flex{
+  flex-wrap: wrap;
+}
 
   .h1 {
     font-size: x-large;
@@ -143,6 +140,7 @@
   }
   
   .type {
+    max-width: 30ch;
     font-size: small;
     flex-wrap: wrap;
   }
