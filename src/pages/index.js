@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.center}>
           <section className={styles.flex}>
             <h1 className={styles.h1}>
-              MICROL CHEN 
+              MICROL CHEN
             </h1>
             <p className={styles.type}>Contacts: microl.chen@emory.edu &nbsp; | &nbsp; 404&nbsp;-&nbsp;642&nbsp;-&nbsp;7703</p>
             <br />
@@ -33,10 +33,10 @@ export default function Home() {
             <hr className={styles.divider} />
             <h3 className={styles.subhead}> Emory University, SAAC Facility</h3>
             <p className={styles.type}> <i>Supervisor</i></p>
-            
-            <p className={styles.type}>&nbsp;&nbsp;● Trained and supervised attendants in a variety of different tasks including (but not limited to) using facility software, standard customer service practices, and adhering to company policies.</p>
-            <p className={styles.type}>&nbsp;&nbsp;● Work a minimum of 20 hours per week with duties such as supervising attendants, answering phone calls, and resolving conflicts.</p>
-            
+            <ul className={styles.indent}>
+              <li className={styles.type}>● Trained and supervised attendants in a variety of different tasks including (but not limited to) using facility software, standard customer service practices, and adhering to company policies.</li>
+              <li className={styles.type}>● Work a minimum of 20 hours per week with duties such as supervising attendants, answering phone calls, and resolving conflicts.</li>
+            </ul>
 
             <br />
             <h3 className={styles.subhead}> Emory University, The Hong Lab</h3>
@@ -71,45 +71,45 @@ export default function Home() {
             <div className={styles.grid}>
               <section className={styles.card}>
                 <h2 className={styles.type1}>Languages</h2>
-                
 
-                  <p className={styles.type}>&nbsp;&nbsp;● HTML </p>
-                  <p className={styles.type}>&nbsp;&nbsp;● CSS</p>
-                  <p className={styles.type}>&nbsp;&nbsp;● JavaScript</p>
-                  <p className={styles.type}>&nbsp;&nbsp;● Java</p>
-                  <p className={styles.type}>&nbsp;&nbsp;● Python</p>
-                  <p className={styles.type}>&nbsp;&nbsp;● C</p>
-                  <p className={styles.type}>&nbsp;&nbsp;● R</p>
-                
+
+                <p className={styles.type}>&nbsp;&nbsp;● HTML </p>
+                <p className={styles.type}>&nbsp;&nbsp;● CSS</p>
+                <p className={styles.type}>&nbsp;&nbsp;● JavaScript</p>
+                <p className={styles.type}>&nbsp;&nbsp;● Java</p>
+                <p className={styles.type}>&nbsp;&nbsp;● Python</p>
+                <p className={styles.type}>&nbsp;&nbsp;● C</p>
+                <p className={styles.type}>&nbsp;&nbsp;● R</p>
+
               </section>
               <section className={styles.card}>
                 <h2 className={styles.type1}>Frameworks</h2>
-                <ul className={styles.indent}>
+              
 
-                  <li className={styles.type}>● React </li>
-                  <li className={styles.type}>● Material UI - MUI</li>
-                  <li className={styles.type}>● Flask</li>
-                  
-                </ul>
+                  <p className={styles.type}>&nbsp;&nbsp;● React </p>
+                  <p className={styles.type}>&nbsp;&nbsp;● Material UI - MUI</p>
+                  <p className={styles.type}>&nbsp;&nbsp;● Flask</p>
+
+             
               </section>
               <section className={styles.card}>
                 <h2 className={styles.type1}>Tools</h2>
-                <ul className={styles.indent}>
+            
 
-                  <li className={styles.type}>● Figma </li>
-                  <li className={styles.type}>● Git/GitHub</li>
-                  <li className={styles.type}>● Vercel</li>
-                </ul>
+                  <p className={styles.type}>&nbsp;&nbsp;● Figma </p>
+                  <p className={styles.type}>&nbsp;&nbsp;● Git/GitHub</p>
+                  <p className={styles.type}>&nbsp;&nbsp;● Vercel</p>
+           
               </section>
               <section className={styles.card}>
                 <h2 className={styles.type1}>Personal Interest Skills</h2>
-                <ul className={styles.indent}>
+               
 
-                  <li className={styles.type}>● Lightworks - Video Editing </li>
-                  <li className={styles.type}>● Languages - Intermediate Chinese/Korean</li>
-                  <li className={styles.type}>● Microsoft Excel</li>
-                  <li className={styles.type}>● Bloomberg Market Concepts Certificate</li>
-                </ul>
+                  <p className={styles.type}>&nbsp;&nbsp;● Lightworks - Video Editing </p>
+                  <p className={styles.type}>&nbsp;&nbsp;● Languages - Intermediate Chinese/Korean</p>
+                  <p className={styles.type}>&nbsp;&nbsp;● Microsoft Excel</p>
+                  <p className={styles.type}>&nbsp;&nbsp;● Bloomberg Market Concepts Certificate</p>
+                
               </section>
             </div>
 
