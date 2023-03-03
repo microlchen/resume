@@ -69,9 +69,4 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
-  /* Styles for devices with a maximum width of 767 pixels (mobile devices) */
-  .container {
-    max-width: 500px;
-  }
-}
+
