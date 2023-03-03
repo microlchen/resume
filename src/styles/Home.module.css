@@ -112,22 +112,27 @@
   
   .h1 {
     font-size: x-large;
+    flex-wrap: wrap;
   }
   
   .h2 {
     font-size: large;
+    flex-wrap: wrap;
   }
   
   .subhead {
     font-size: medium;
+    flex-wrap: wrap;
   }
   
   .type {
     font-size: small;
+    flex-wrap: wrap;
   }
   
   .type1 {
     font-size: medium;
+    flex-wrap: wrap;
   }
   
   .grid {
@@ -141,11 +146,13 @@
   
   .card h2 {
     font-size: medium;
+    flex-wrap: wrap;
   }
   
   .card p {
     font-size: small;
     max-width: none;
+    flex-wrap: wrap;
   }
   
   .center {
