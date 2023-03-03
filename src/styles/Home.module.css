@@ -9,6 +9,7 @@
 }
 
 .h1 {
+  display: flex;
   margin: 3;
   padding: 30;
   font-size: xx-large;
@@ -16,6 +17,7 @@
 }
 
 .h2 {
+  display: flex;
   margin: 3;
   padding: 30;
   font-size: x-large;
@@ -24,14 +26,16 @@
 
 .subhead {
   margin: 3;
-  justify-content: space-around;
-
+  justify-content: flex-start;
+  display: flex;
   padding: 30;
   font-size: large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .type {
+  display: flex;
+  justify-content: flex-start;
   margin: 0;
   opacity: 0.6;
   font-size: large;
@@ -70,7 +74,8 @@
 }
 
 .grid {
-  display: grid;
+  display: flex;
+  justify-content: space-evenly;
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
@@ -137,3 +142,4 @@
   filter: blur(45px);
   transform: translateZ(0);
 }
+
